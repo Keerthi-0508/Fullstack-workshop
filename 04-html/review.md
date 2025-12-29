@@ -1,7 +1,7 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 13:25
+**Review Date:** 2025-12-29 13:31
 
 ---
 
@@ -17,6 +17,8 @@
 - ❌ Missing: `portfolio-v3.html`
 
 ### Code Review
+
+### Topic Score: 0 / 20 (0%)
 
 ---
 
