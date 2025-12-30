@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Survey</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><h3>Personal Information</h3></legend>
+            <label for="Name">Name:</label>
+            <input type="text" minlength="2" maxlength="100" required></br>
+            <p></p>
+            <label for="mail">Email:    </label>
+            <input type="email" required></br>
+            <p></p>
+            <label for="phonenumber">Phone:</label>
+            <input type="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></br>
+            <p></p>
+            <label for="age">Age       :</label>
+            <select name="age" id="age" placeholder="select your age">
+                <option value="Under 18">Under 18</option>
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-44">35-44</option>
+                <option value="45-54">45-54</option>
+                <option value="55+">55+</option>
+                
+            </select>
+            <p></p>
+            <label for="gender"> Gender  :</label>
+            <input type="radio" name="gender" id="male">
+            <label>Male</label>
+            <input type="radio" name="gender" id="female">
+            <label>Female</label> 
+            <input type="radio" name="gender" id="prefer not to say">
+            <label>Prefer not to say</label>  
+        </fieldset>
+        <section>
+            <fieldset>
+            <legend><h3>Product Feedback</h3></legend>
+            
+                <h4>Products Used</h4>
+                <input type="checkbox">
+                <label>Product A-Web Application</label></br>
+                <input type="checkbox">
+                <label>Product B-Mobile App/label</br>
+                <input type="checkbox">
+                <label>Product C-Desktop Software</label></br>
+                <input type="checkbox">
+                <label>Product D-API Services</label></br>
+                <input type="checkbox">
+                <label>Product E-Cloud storage</label></br>
+                <p></p>
+
+                <label for="primary product"><b> Primary Product : </b></label>
+                <select  id="primary product" name="primary product">
+                    <option>Product A-Web Application</option>
+                    <option>Product B-Mobile App</option>
+                    <option>Product C-Desktop Software</option>
+                    <option>Product D-API Services</option>
+                    <option>Product E-Cloud Storage</option>
+
+                </select>
+                <p></p>
+                <b>How long have you been a customer?</b>
+                <select for="duration">
+                    <option>Less than 1 month</option>
+                    <option>1-6 months</option>
+                    <option>6-12 months</option>
+                    <option>1-2 years</option>
+                    <option>More than 2 years</option>
+
+
+                </select>
+                </fieldset>
+                
+                    <section>
+                        <fieldset>
+                        <legend><h3>Satisfaction Rating</h3></legend>
+                        <b> Overall Satisfaction : </b>
+                        <input type="radio" name="overllsatisfaction" value="1">
+                        <label> &#11088; </label>
+                        <input type="radio" name="overllsatisfaction" value="2">
+                        <label>&#11088; &#11088;  </label>
+                        <input type="radio" name="overllsatisfaction" value="3">
+                        <label> &#11088;&#11088;&#11088; </label>
+                        <input type="radio" name="overllsatisfaction" value="4">
+                        <label>&#11088;&#11088;&#11088;&#11088; </label>
+                        <input type="radio" name="overllsatisfaction" value="5">
+                        <label> &#11088;&#11088;&#11088;&#11088;&#11088; </label></br>
+                        <p></p>
+                        <b>Product Quality : </b>
+                        <input type="range" min="1" max="10"></br>
+                        <b>Customer Support : </b>
+                        <input type="range" min="1" max="10"></br>
+                        <b>Value for Money : </b>
+                        <input type="range" min="1" max="10"></br>
+                        <p></p>
+                        <b>Would you recommend us? </b>
+                        <input type="radio" name="recommend" id="definitely">
+                        <label for="definitely">Definitely</label>
+                        <input type="radio" name="recommend" id="probably">
+                        <label for="probably">Probably</label>
+                        <input type="radio" name="recommend" id="notsure">
+                        <label for="notsure">Not sure</label>
+                        <input type="radio" name="recommend" id="probablynot">
+                        <label for="probablynot">Probably not</label>
+                        <input type="radio" name="recommend" id="definitelynot">
+                        <label for="definitelynot">Definitely not</label>
+                        
+                        
+
+
+                    </fieldset>
+
+                    </section>
+                    
+                        <section>
+                            <fieldset>
+                            <legend><h3>Detailed Feedback</h3></legend>
+                            
+                                <label for="most"><b>What do you like most ?</b></label>
+                                <textarea name="review" rows="2" maxlength="200" id="most"></textarea></br>
+                                <label for="improve"><b>What can we improve ?</b></label>
+                                <textarea name="sh" rows="2" maxlength="200" id="improve"></textarea></br>
+                                <label for="info"><b>Additional Comments --</b></label>
+                                <textarea name="add" rows="2" maxlength="200" id="info"></textarea>
+                            </fieldset>
+                        </section>
+                <section>
+                    <fieldset>
+                        <legend><h3>Contact Preferences</h3></legend>
+                        <b>Preferred Contact Method : </b>
+                        <input type="checkbox" id="email" name="contact">
+                        <label for="email">Email</label>
+                        <input type="checkbox" id="phone" name="contact">
+                        <label for="phone">Phone</label>
+                        <input type="checkbox" id="sms" name="contact">
+                        <label for="sms">SMS</label>
+                        <input type="checkbox" id="nc" name="contact">
+                        <label for="nc">No Contact</label>
+                        <p></p>   
+                        <b>Best Time to Contact :</b> 
+                        <input type="radio" name="timing" id="morning">
+                        <label for="morning">Morning(9am-12pm)</label>
+                         <input type="radio" name="timing" id="afternoon">
+                        <label for="afternoon">Afternoon(12pm-5pm)</label>
+                         <input type="radio" name="timing" id="evening">
+                        <label for="evening">Evening(5pm-8pm)</label>
+                         <p></p>
+                         <input type="checkbox" required>
+                         <b>Subscribe to Newsletter:</b>
+                         <p></p>
+                         <input type="checkbox" required>
+                         <b>Agree to Terms:</b>
+
+                    </fieldset>
+                </section>
+
+                <div class="form-actions">
+                   <button type="submit">Submit Survey</button>
+                     <button type="reset">Clear Form</button>
+               </div>
+                           
+                    
+    </form>
+    
+</body>
+</html>

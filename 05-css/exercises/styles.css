@@ -1,0 +1,77 @@
+
+.main{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+
+}
+.card{
+
+     max-width: 350px;
+     border: 3px solid rgb(8, 2, 2);
+     padding:10px;
+    
+}
+.card:hover{
+    background-color:cadetblue
+}
+.card-image{
+    width: 90%;
+    background-size:cover;
+    border-radius:5%;
+    padding:5px;
+    
+}
+.card-title{
+    text-align: center;
+    font-size:25px;
+    text-decoration:underline;
+}
+.card-badge{
+    
+    position: absolute;
+    top:20px;
+    left:345px;
+    background-color:lightcoral;
+    border-radius:30%;
+    width:2em;
+    text-align: center;
+}
+.card-description{
+    text-align: center;
+    
+    color:burlywood;
+}
+.price-original{
+
+    text-decoration: line-through;
+}
+.price-sale{
+    color: blue;
+    font-size:40px;
+    
+}
+.card-button{
+    width: 40%;
+    color:black;
+}
+.card-button:hover{
+    background-color:violet;
+}
+
+@media(max-width:400px){
+    .main{
+        grid-template-columns: repeat(1,1fr);    
+    }
+}
+@media(max-width:900px){
+    .main{
+        grid-template-columns: repeat(2,1fr);    
+    }
+}
+    
+
+
+
+
