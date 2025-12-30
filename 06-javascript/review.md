@@ -1,15 +1,63 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-29 16:59
+**Review Date:** 2025-12-30 11:32
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 1
+**Files submitted:** 5
 
 ### Code Review
+
+📄 **counter.html**
+   Path: `06-javascript/exercises/counter.html`
+   Lines: 25
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **counter.js**
+   Path: `06-javascript/exercises/counter.js`
+   Lines: 40
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - ✅ Uses modern array methods
+
+   **Score: 3/5**
+
+📄 **form-validator.html**
+   Path: `06-javascript/exercises/form-validator.html`
+   Lines: 35
+
+    - ✅ Has `<!DOCTYPE html>`
+    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 4/5**
+
+📄 **form-validator.js**
+   Path: `06-javascript/exercises/form-validator.js`
+   Lines: 83
+
+    - ✅ Uses `const`/`let` (no `var`)
+    - ✅ Uses strict equality (`===`)
+    - 💡 Consider using arrow functions
+    - 💡 Consider using template literals for string interpolation
+    - 💡 Consider using array methods (map, filter, reduce)
+
+   **Score: 2/5**
+
+### Topic Score: 13 / 20 (65%)
 
 ---
 
