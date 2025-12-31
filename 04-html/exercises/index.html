@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,5 +27,68 @@
     <input type="search" id="search" name="search" placeholder="Search...">
 
     
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Registration Form</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a> |
+    <a href="#">Register</a> |
+    <a href="#">Contact</a>
+</nav>
+
+<hr>
+
+<main>
+    <form>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"
+               placeholder="Enter username" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"
+               placeholder="Enter password"
+               minlength="8" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"
+               placeholder="user@example.com" required><br><br>
+
+        <label for="website">Website:</label><br>
+        <input type="url" id="website" name="website"
+               placeholder="https://example.com"><br><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"
+               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+               placeholder="123-456-7890"><br><br>
+
+        <label for="search">Search:</label><br>
+        <input type="search" id="search" name="search"
+               placeholder="Search..."><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</main>
+
+<hr>
+
+<footer>
+    <p>© 2025 All rights reserved</p>
+</footer>
+
 </body>
 </html>
