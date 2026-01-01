@@ -1,26 +1,30 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 11:32
+**Review Date:** 2025-12-31 10:54
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 5
+**Files submitted:** 4
+
+### Relevance Check
+
+Unable to check - no exercise file
 
 ### Code Review
 
 📄 **counter.html**
    Path: `06-javascript/exercises/counter.html`
-   Lines: 25
+   Lines: 34
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **counter.js**
    Path: `06-javascript/exercises/counter.js`
@@ -36,14 +40,14 @@
 
 📄 **form-validator.html**
    Path: `06-javascript/exercises/form-validator.html`
-   Lines: 35
+   Lines: 46
 
     - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
+    - ✅ Uses semantic HTML5 tags
     - ✅ Has viewport meta tag (mobile-friendly)
     - ✅ Has `lang` attribute
 
-   **Score: 4/5**
+   **Score: 5/5**
 
 📄 **form-validator.js**
    Path: `06-javascript/exercises/form-validator.js`
@@ -57,7 +61,7 @@
 
    **Score: 2/5**
 
-### Topic Score: 13 / 20 (65%)
+### Topic Score: 15 / 20 (75%)
 
 ---
 
@@ -65,7 +69,7 @@
 
 **Status:** ⚠️ Not submitted
 
-Submit to: `06-javascript/challenge-01/`
+Submit to: `06-javascript/challenges/`
 
 ---
 

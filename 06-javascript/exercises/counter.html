@@ -6,21 +6,29 @@
     <title>Counter</title>
 </head>
 <body>
-    <div>
+
+    <header>
         <h1>Counter</h1>
-        <p class="count" id="result">0</p>
-        <div class="btn">
-        <button class="btn btn.danger" id="decrease">-</button>
-        <button class="btn btn.secondary" id="reset">Reset</button>
-        <button class="btn btn.success" id="increase">+</button>
-        <p>Step:</p>
-        <button class="btn" id="one">1</button>
-        <button class="btn" id="five">5</button>
-        <button class="btn" id="ten">10</button>
-        </div>
-    </div>
+    </header>
+    <main>
+        <section>
+            <p class="count" id="result">0</p>
+
+            <div class="buttons">
+                <button class="btn btn-danger" id="decrease">-</button>
+                <button class="btn btn-secondary" id="reset">Reset</button>
+                <button class="btn btn-success" id="increase">+</button>
+            </div>
+
+            <section>
+                <p>Step:</p>
+                <button class="btn" id="one">1</button>
+                <button class="btn" id="five">5</button>
+                <button class="btn" id="ten">10</button>
+            </section>
+        </section>
+    </main>
     <script src="counter.js"></script>
 
-    
 </body>
 </html>

@@ -1,26 +1,30 @@
 # Review: 04-html
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-30 11:32
+**Review Date:** 2025-12-31 10:54
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 6
+**Files submitted:** 7
+
+### Relevance Check
+
+Unable to check - no exercise file
 
 ### Required Files
 
 - ✅ Found: `portfolio-v1.html`
-- ❌ Missing: `portfolio-v2.html`
+- ✅ Found: `portfolio-v2.html`
 - ✅ Found: `portfolio-v2.css`
-- ❌ Missing: `portfolio-v3.html`
+- ✅ Found: `portfolio-v3.html`
 
 ### Code Review
 
-📄 **employee-table.html**
-   Path: `04-html/exercises/employee-table.html`
-   Lines: 121
+📄 **exercise-02.html**
+   Path: `04-html/exercises/exercise-02.html`
+   Lines: 122
 
     - ✅ Has `<!DOCTYPE html>`
     - ✅ Uses semantic HTML5 tags
@@ -30,40 +34,9 @@
 
    **Score: 5/5**
 
-📄 **index.html**
-   Path: `04-html/exercises/index.html`
-   Lines: 30
-
-    - ✅ Has `<!DOCTYPE html>`
-    - 💡 Consider using semantic tags (header, nav, main, etc.)
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - ✅ Has `lang` attribute
-
-   **Score: 4/5**
-
-📄 **portfolio-v1.html**
-   Path: `04-html/exercises/portfolio-v1.html`
-   Lines: 100
-
-    - ✅ Has `<!DOCTYPE html>`
-    - ✅ Uses semantic HTML5 tags
-    - ❌ Images missing `alt` attributes
-    - ✅ Has viewport meta tag (mobile-friendly)
-    - ✅ Has `lang` attribute
-    - 📌 **Version 1 (Raw HTML)**
-    - ✅ Pure semantic HTML (no styling)
-
-   **Score: 4/5**
-
-📄 **portfolio-v2.css**
-   Path: `04-html/exercises/portfolio-v2.css`
-   Lines: 140
-
-   - ✅ CSS file present
-
-📄 **survey-form.html**
-   Path: `04-html/exercises/survey-form.html`
-   Lines: 170
+📄 **exercise-03.html**
+   Path: `04-html/exercises/exercise-03.html`
+   Lines: 171
 
     - ✅ Has `<!DOCTYPE html>`
     - ✅ Uses semantic HTML5 tags
@@ -72,7 +45,67 @@
 
    **Score: 5/5**
 
-### Topic Score: 28 / 40 (70%)
+📄 **index.html**
+   Path: `04-html/exercises/index.html`
+   Lines: 53
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+
+   **Score: 5/5**
+
+📄 **portfolio-v1.html**
+   Path: `04-html/exercises/portfolio-v1.html`
+   Lines: 100
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 1 (Raw HTML)**
+    - ✅ Pure semantic HTML (no styling)
+
+   **Score: 5/5**
+
+📄 **portfolio-v2.css**
+   Path: `04-html/exercises/portfolio-v2.css`
+   Lines: 140
+
+   - ✅ CSS file present
+
+📄 **portfolio-v2.html**
+   Path: `04-html/exercises/portfolio-v2.html`
+   Lines: 100
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ❌ Images missing `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 2 (HTML + CSS3)**
+    - ✅ Links to CSS stylesheet
+
+   **Score: 4/5**
+
+📄 **portfolio-v3.html**
+   Path: `04-html/exercises/portfolio-v3.html`
+   Lines: 127
+
+    - ✅ Has `<!DOCTYPE html>`
+    - ✅ Uses semantic HTML5 tags
+    - ✅ Images have `alt` attributes
+    - ✅ Has viewport meta tag (mobile-friendly)
+    - ✅ Has `lang` attribute
+    - 📌 **Version 3 (Bootstrap)**
+    - ✅ Uses Bootstrap framework
+    - ✅ Uses Bootstrap classes
+
+   **Score: 5/5**
+
+### Topic Score: 49 / 50 (98%)
 
 ---
 
