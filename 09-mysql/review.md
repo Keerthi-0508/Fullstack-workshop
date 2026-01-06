@@ -1,13 +1,13 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2026-01-02 16:49
+**Review Date:** 2026-01-05 15:05
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 4
+**Files submitted:** 6
 
 ### Relevance Check
 
@@ -27,7 +27,7 @@ Please complete the correct exercise and resubmit.
 
 ## Challenge
 
-**Status:** ✅ Submitted (4 files)
+**Status:** ✅ Submitted (6 files)
 
 ### Challenge Relevance Check
 
@@ -51,7 +51,7 @@ Please complete the correct exercise and resubmit.
    **Score: 5/5**
 
 📄 **employee-hierarchy.sql**
-   Lines: 15
+   Lines: 5
 
     📋 **Challenge 2: Employee Hierarchy**
     Expected: employee_name, manager_name (self-join)
@@ -63,8 +63,21 @@ Please complete the correct exercise and resubmit.
 
    **Score: 4/4**
 
+📄 **name-formatter.sql**
+   Lines: 17
+
+    📋 **Challenge 6: Employee Name Formatter**
+    Expected: formatted_name, email, initials (string functions)
+
+    - ✅ Uses UPPER() function
+    - ✅ Uses CONCAT() for string building
+    - ✅ Uses LEFT() for initials
+    - ✅ Generates email format
+
+   **Score: 4/4**
+
 📄 **project-workload.sql**
-   Lines: 25
+   Lines: 10
 
     📋 **Challenge 3: Project Workload**
     Expected: project_name, budget, team_size, total_hours
@@ -78,7 +91,7 @@ Please complete the correct exercise and resubmit.
    **Score: 5/5**
 
 📄 **top-earners.sql**
-   Lines: 39
+   Lines: 17
 
     📋 **Challenge 4: Top Earners**
     Expected: department, name, salary, rank_in_dept (window function)
@@ -90,7 +103,20 @@ Please complete the correct exercise and resubmit.
 
    **Score: 4/4**
 
-### Challenge Score: 18 / 18 (100%)
+📄 **unassigned-resources.sql**
+   Lines: 21
+
+    📋 **Challenge 5: Unassigned Resources**
+    Expected: id, name, department (employees not in any project)
+
+    - ✅ Uses LEFT JOIN with assignments
+    - ✅ Checks for NULL (unassigned employees)
+    - ✅ References employee_id for join
+    - ✅ Selects required columns (id, name, department)
+
+   **Score: 4/4**
+
+### Challenge Score: 26 / 26 (100%)
 
 
 ---
